@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-//Pilha é uma estrutura de dados na qual o último elemento a entrar é o primeiro a sair, também conhecida como LIFO(Last-In First-Out), por exemplo, uma pilha de pratos.
+//Pilha Ã© uma estrutura de dados na qual o Ãºltimo elemento a entrar Ã© o primeiro a sair, tambÃ©m conhecida como LIFO(Last-In First-Out), por exemplo, uma pilha de pratos.
 public class Pilha {
 	
 	private List<String> nomes = new LinkedList<String>();
@@ -14,10 +14,10 @@ public class Pilha {
 	}
 
 	public String remove() {
-		return nomes.remove(nomes.size()-1	);
+		return nomes.remove(nomes.size()-1);
 	}
 	
-	//Podemos fazer size==0,ao invés do empty
+	//Podemos fazer size==0,ao invÃ©s do empty
 	public boolean vazio() {
 		return nomes.isEmpty();
 	}
