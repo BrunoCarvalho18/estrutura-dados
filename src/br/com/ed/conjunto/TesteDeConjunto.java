@@ -23,6 +23,9 @@ public class TesteDeConjunto {
 		Set<String> conjuntoDoJava = new HashSet<String>();
 		conjuntoDoJava.add("Bruno");
 		conjuntoDoJava.add("Paulo");
+		conjuntoDoJava.add("Bruno");
+		conjuntoDoJava.add("Daniel");
+		conjuntoDoJava.add("Elton");
 		
 		System.out.println(conjuntoDoJava);
 		

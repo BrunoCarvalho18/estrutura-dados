@@ -23,15 +23,17 @@ public class TesteDaPilha {
 	   
 	   System.out.println(pilha);
 	   
-	   //Push est· inserindo
+	   //Push est√° inserindo
 	   Stack<String> stack = new Stack<String>();
 	   stack.push("Bruno");
 	   stack.push("Matheus");
+	   stack.push("Daniel");
+	   stack.push("Elton");
 	   
-	   //Pop est· removendo
+	   //Pop est√° removendo
 	   System.out.println(stack.pop());
 	   
-	   //Pick sÛ indica quem ele retira
+	   //Pick se indica quem ele retira
 	}
 
 }

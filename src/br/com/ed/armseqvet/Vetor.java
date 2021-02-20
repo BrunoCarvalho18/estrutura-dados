@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 //Armazenamento sequencial podemos usar o vetor
 //Um vetor geralmente usa um array por baixo dos panos
-//A inserção será demorada se o algoritmo passar por todos os elementos
+//A inserÃ§Ã£o ser demorada se o algoritmo passar por todos os elementos
 public class Vetor {
 
 	private Aluno[] alunos = new Aluno[100];
@@ -17,7 +17,7 @@ public class Vetor {
 	public void adiciona(int posicao, Aluno aluno) {
 		this.garanteEspaco();
 		if(!posicaoValida(posicao)) {
-			throw new IllegalArgumentException("posicao inválida");
+			throw new IllegalArgumentException("posicao invï¿½lida");
 		}
 		
 		for(int i = totalDeAlunos - 1; i >= posicao; i-=1) {
@@ -48,7 +48,7 @@ public class Vetor {
 
 	public Aluno pega(int posicao) {
 		if(!posicaoOcupada(posicao)) {
-			throw new IllegalArgumentException("posicao inválida");
+			throw new IllegalArgumentException("posicao invï¿½lida");
 		}
 		return alunos[posicao];
 	}
